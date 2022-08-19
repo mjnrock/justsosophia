@@ -7,8 +7,6 @@ import "./assets/css/main.css";
 import { Home } from "./routes/Home";
 import { About } from "./routes/About";
 
-//FIXME: Currently if there are multiple Game instances, the event handlers won't figure correctly
-
 export function App() {
 	return (
 		<Routes>
